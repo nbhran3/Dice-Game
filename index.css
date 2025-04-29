@@ -1,0 +1,36 @@
+body
+{
+    background-color: rgb(255, 222, 183);
+}
+.container
+{
+    text-align: center;
+}
+.player
+{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    font-family: lobster,cursive;
+    font-size: 2rem;
+}
+h1
+{
+    font-family: 'lobster',cursive;
+    margin: 50px;
+    font-size: 8rem;
+}
+.dice
+{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin: 50px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: auto; /* Pushes the footer to the bottom */
+    padding: 20px;
+    background-color:rgb(255, 211, 158); /* Optional: for a background color */
+}
