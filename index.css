@@ -1,36 +1,43 @@
-body
-{
+body {
     background-color: rgb(255, 222, 183);
+    margin: 0;
 }
-.container
-{
+
+.container {
     text-align: center;
 }
-.player
-{
+
+.player {
     display: flex;
     justify-content: center;
-    gap: 200px;
-    font-family: lobster,cursive;
-    font-size: 2rem;
+    gap: 5vw;
+    font-family: 'Lobster', cursive;
+    font-size: 3vw;
 }
-h1
-{
-    font-family: 'lobster',cursive;
-    margin: 50px;
-    font-size: 8rem;
+
+h1 {
+    font-family: 'Lobster', cursive;
+    margin: 5vh;
+    font-size: 8vw;
 }
-.dice
-{
+
+.dice {
     display: flex;
     justify-content: center;
-    gap: 70px;
-    margin: 50px;
+    gap: 5vw;
+    margin: 5vh 0;
 }
+
+.dice img {
+    width: 20vw; /* dice images scale responsively */
+    max-width: 150px; /* set a max width so they don't get too big */
+    height: auto;
+}
+
 footer {
     display: flex;
     justify-content: center;
-    margin-top: auto; /* Pushes the footer to the bottom */
-    padding: 20px;
-    background-color:rgb(255, 211, 158); /* Optional: for a background color */
+    padding: 2vh;
+    font-size: 2.5vw;
+    background-color: rgb(255, 211, 158);
 }
